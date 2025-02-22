@@ -1,0 +1,177 @@
+/* 🟩 Clean White Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white; /* Clean white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: black;
+  }
+  
+  /* 🟩 Vibrant Box */
+  .container {
+    width: 50%;
+    min-width: 400px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Pink to Light Pink */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* ✨ Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* 🏷️ Title */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  /* 📌 Input Box */
+  .input-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #ff477e;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ff2b68;
+  }
+  
+  /* 🔍 Compact Search + Sort */
+  .search-sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .search-box {
+    position: relative;
+    width: 50%; /* Reduced width for the search bar */
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 10px 35px 10px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search-box .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 18px;
+  }
+  
+  /* ⬆⬇ Sorting Button */
+  .sort-button {
+    background: #ff477e;
+    border: none;
+    color: white;
+    font-size: 20px; /* Reduced font size for a smaller button */
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 30%; /* Smaller width for the button */
+    max-width: 70px; /* Limit max size */
+    margin-left: 60px; /* Increased margin-left to shift button more to the right */
+  }
+  
+  .sort-button:hover {
+    background: #ff2b68;
+  }
+  
+  /* ✅ Task List */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  .task:hover {
+    transform: scale(1.02);
+  }
+  
+  .task span {
+    flex-grow: 1;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  /* 🛠️ Task Actions */
+  .task .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task button {
+    background-color: #ff477e;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  .task button:hover {
+    background-color: #ff2b68;
+  }
+  

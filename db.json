@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Learn React",
+      "completed": false
+    },
+    {
+      "id": "b897",
+      "text": "Write assignment",
+      "completed": false
+    },
+    {
+      "id": "be6d",
+      "text": "Write homework",
+      "completed": false
+    },
+    {
+      "id": "fc2c",
+      "text": "Go gym",
+      "completed": false
+    },
+    {
+      "id": "32f0",
+      "text": "Go to market",
+      "completed": false
+    },
+    {
+      "id": "53f3",
+      "text": "write",
+      "completed": false
+    },
+    {
+      "id": "e947",
+      "text": "read",
+      "completed": false
+    }
+  ]
+}
